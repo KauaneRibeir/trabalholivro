@@ -6,7 +6,7 @@ const app = express()
 const port = 7000
 
 app.use(express.json())
-// app.use(cep_endereco) // Middleware de uso global
+
 
 app.use("/rental", rental_router)
 app.use("/student", student_router)
